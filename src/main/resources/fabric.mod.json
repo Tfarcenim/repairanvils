@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "anvilrepair",
   "version": "${version}",
 
   "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Anvil repairing",
   "authors": [
     "Tfarecnim"
   ],
@@ -18,11 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "tfar.example.ExampleMod"
+      "tfar.repairanvils.RepairAnvils"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
